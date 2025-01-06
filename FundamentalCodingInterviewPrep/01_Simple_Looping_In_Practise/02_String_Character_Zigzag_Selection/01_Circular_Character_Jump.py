@@ -23,7 +23,7 @@ def repeat_char_jump(inputString, k):
     last_jump_position = (last_jump_position + k) % length # recordar el último char del "salto"
     circularly_jumped_string += inputString[last_jump_position]
     print(f"Iteration {i}, jump_position {last_jump_position} - circularly jumped string is {circularly_jumped_string} ")
-      
+
   print(f"Step is {k}, From {inputString} to {circularly_jumped_string}")
   return circularly_jumped_string
   pass

@@ -1,36 +1,31 @@
 import unittest
-from solution import repeat_char_jump
+from solution import solution
 
-class SolutionTests(unittest.TestCase):
-    def test1(self):
-        self.assertEqual(repeat_char_jump("abcdefg", 3), "adgcfbe")
+class TestSolution(unittest.TestCase):
+    def test_case1(self):
+        self.assertEqual(solution([1, 2, 3, 4, 5]), [3, 8, 5])
 
-    def test2(self):
-        self.assertEqual(repeat_char_jump("a", 1), "a")
+    def test_case2(self):
+        self.assertEqual(solution([1, -1, 1, -1, 1, -1]), [-1, -1, -1])
 
-    def test3(self):
-        self.assertEqual(repeat_char_jump("av", 1), "av")
-        
-    def test4(self):
-        self.assertEqual(repeat_char_jump("cgldxdv", 4), "cxgdlvd")
-        
-    def test5(self):
-        self.assertEqual(repeat_char_jump("z", 1), "z")
-        
-    def test6(self):
-        self.assertEqual(repeat_char_jump("aaa", 2), "aaa")
-        
-    def test7(self):
-        self.assertEqual(repeat_char_jump("zyxwvutsrqponmlkjihgfedcba", 5), "zupkfavqlgbwrmhcxsnidytoje")
-        
-    def test8(self):
-        self.assertEqual(repeat_char_jump("zyxwvutsrqponmlkjihgfedcba", 15), "zkvgrcnyjufqbmxitepalwhsdo")
-        
-    def test9(self):
-        self.assertEqual(repeat_char_jump("abcdefghij", 1), "abcdefghij")
-        
-    def test10(self):
-        self.assertEqual(repeat_char_jump("abcdefghij", 9), "ajihgfedcb")
+    def test_case3(self):
+        self.assertEqual(solution([-100] * 200), [10000] * 100)
 
-if __name__ == "__main__":
+    def test_case4(self):
+        self.assertEqual(solution([5, -7, 2, -9, 1, -3, 8]), [-9, 2, 21, 40])
+
+    def test_case5(self):
+        self.assertEqual(solution([3, 6, 2, 9, -4, -1, 0, 5, 7]), [-4, -9, 0, 30, 21])
+
+    def test_case6(self):
+        self.assertEqual(solution([9]*200), [81]*100)
+
+    def test_case7(self):
+        self.assertEqual(solution([5]), [5])
+
+    def test_case8(self):
+        self.assertEqual(solution([0, 0]), [0])
+
+
+if __name__ == '__main__':
     unittest.main()

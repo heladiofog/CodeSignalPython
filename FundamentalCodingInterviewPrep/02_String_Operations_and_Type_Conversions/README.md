@@ -1,0 +1,2 @@
+# Practicing String Operations and Type Conversions in Python
+Further expand your Python abilities with a deep dive into string operations and type conversions. This course focuses on practical implementations and helps you master these two essential areas.

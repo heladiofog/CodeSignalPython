@@ -20,5 +20,22 @@ def solution(input_str):
 
 # Solution:
 def solution(input_str):
-    # TODO: implement the function
-    pass
+  # TODO: implement the function
+  word_list = input_str.split()
+  capitalized_string = ''
+  capitalized_words = []
+  
+  for word in word_list:
+    capitalized_word = ''
+    
+    if word[0].isalpha():
+      capitalized_word += word[0].upper() + word.lower()[1::]
+    else:
+      capitalized_word += word.lower()
+        
+    capitalized_words.append(capitalized_word)
+      
+  capitalized_string = ' '.join(capitalized_words)
+  print(f"Capitalized string: {capitalized_string}")
+  return capitalized_string
+  pass

@@ -1,3 +1,4 @@
 def solution():
-# Solution
+  # Solution
+  print(f"Hallo")
   pass

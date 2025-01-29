@@ -1,0 +1,3 @@
+def solution():
+# Solution
+  pass

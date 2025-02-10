@@ -40,16 +40,16 @@ We then append these characters to our result string, which will be returned as 
 
 ```Python
 def solution(sentence):
-    words = sentence.split(' ')
-    result = ''
-    for word in words:
-        if len(word) % 2 == 0:  # check if the length of word is even
-            for i in range(1, len(word), 2):  # loop over odd characters
-                result += word[i]
-    return result
+  words = sentence.split(' ')
+  result = ''
+  for word in words:
+    if len(word) % 2 == 0:  # check if the length of word is even
+    for i in range(1, len(word), 2):  # loop over odd characters
+      result += word[i]
+  return result
 ```
 ## Lesson Summary
-Bravo! You've just successfully navigated through the maze of nested loops to extract specific information from words within a sentence. You've learned how to analyze a sentence by breaking it down into its constituent words and then studying each word at an even deeper level.
+Bravo! You've just successfully navigated through the maze of `nested loops` to extract specific information from words within a sentence. You've learned how to analyze a sentence by breaking it down into its constituent words and then studying each word at an even deeper level.
 
 Now, use this knowledge as a foundation in your exploration of nested loops. Practicing more is key, as the more you apply what you've learned, the more you will reinforce this knowledge. Are you ready to dive deeper into the world of nested loops and string manipulations? Let's dive right in!
 

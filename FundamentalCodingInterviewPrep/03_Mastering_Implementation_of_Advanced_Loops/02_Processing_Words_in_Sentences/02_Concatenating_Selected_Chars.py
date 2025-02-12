@@ -12,7 +12,7 @@ def solution(sentence, c):
   # TODO: implement
   pass
 
-# Solution for Concatenating Selected Characters from Even-Length Words in a Sentence problem.
+# Solution for "Concatenating Selected Characters from Even-Length Words in a Sentence" problem.
 
 def solution(sentence, c):
   # TODO: implement

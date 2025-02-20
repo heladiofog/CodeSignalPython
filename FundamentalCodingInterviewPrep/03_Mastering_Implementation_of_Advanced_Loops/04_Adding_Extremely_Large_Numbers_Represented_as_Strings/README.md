@@ -60,6 +60,8 @@ def solution(num1, num2):
   return ''.join(res[::-1])  # reverse the list and join into a single string
 ```
 
+## Lesson Summary
+Bravo! You've successfully implemented a method to add very large numbers, mimicking the way we traditionally perform addition operations. Achieving this not only requires a sound understanding of place-value notation but also the ability to manipulate strings and arrays effectively. This task may have been challenging, but remember, the greater the struggle, the more glorious the triumph. Now, with this powerful tool in your arsenal, you can confidently tackle problems involving large numbers. In the upcoming practice session, test your new skills with a range of similar challenges. Enjoy coding, and remember, learning is a journey, so take pleasure in the ride!
 
 ```
 ``

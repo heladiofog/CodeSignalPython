@@ -3,3 +3,6 @@ Advance your programming prowess with a rigorous course on advanced looping tech
 
 ## Lessons:
 1. Nested Loop Pair Discovery: Comparing Elements Across Two Arrays
+2. Processing Words in Sentences
+3. Navigating Arrays and Overcoming Obstacles
+4. Adding Extremely Large Numbers Represented as Strings

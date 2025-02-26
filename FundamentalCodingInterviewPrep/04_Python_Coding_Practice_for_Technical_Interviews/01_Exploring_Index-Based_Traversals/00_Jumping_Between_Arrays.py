@@ -12,7 +12,28 @@
 
 # For arrayA = [1, 3, 2, 5, 4] and arrayB = [5, 4, 3, 2, 1] the output should be [1, 4, 3, 2, 5] since it first lands at the first position in arrayB (the resulting array is [1]), then goes to the fifth position in arrayA, then returns to the fourth position in arrayB (the resulting array becomes [1, 4]), etc.
 
-
+def solution(arrayA, arrayB):
+  # TODO: Implement the function
+  pass
 
 # 'Course5-CodingInterview-Python_Coding_Practice_for_Technical_Interviews-Lesson01-ArrayHoppingAdventure:ExploringIndex-BasedTraversals-01-Solving Array Hopping Adventure: Exploring Index-Based Traversals problem.'
 
+def solution(arrayA, arrayB):
+  # TODO: Implement the function
+  indexA = 1
+  indexB = None
+  in_arrayA = True
+  output = []
+  
+  while True:
+    if in_arrayA:
+      if arrayA[indexA - 1] == 0:  # visited
+        return output
+      indexB = arrayA[indexA - 1]
+      arrayA[indexA - 1] = 0  # visited
+    else:
+      output.append(indexB)
+      indexA = arrayB[indexB - 1]
+    
+    in_arrayA = not in_arrayA
+  pass

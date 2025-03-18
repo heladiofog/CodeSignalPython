@@ -12,7 +12,7 @@ def solution(dungeon, health):
   # TODO: Implement the solution
   pass
 
-# Solving the Processing Strings and Arrays with a Threshold Condition problem.
+# Solving the Dungeon Traversal: Survive the Traps! problem.
 
 def solution(dungeon, health):
   # TODO: Implement the solution

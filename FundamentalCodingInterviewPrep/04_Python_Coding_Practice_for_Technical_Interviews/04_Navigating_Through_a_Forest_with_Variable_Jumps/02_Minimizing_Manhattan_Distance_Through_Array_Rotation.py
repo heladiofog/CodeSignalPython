@@ -26,7 +26,7 @@ def largest_step(garden, start, direction):
   # TODO: implement the function
   pass
 
-# Solving the 02_Minimizing_Manhattan_Distance_Through_Array_Rotation problem.
+# Solving the Minimizing Manhattan Distance Through Array Rotation problem.
 
 def solution(array1, array2):
   # TODO: Your implementation goes here

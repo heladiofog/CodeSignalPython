@@ -54,8 +54,8 @@ def solution(balloons):
       break
     balloons = new_balloons
   return steps
-Bravo! We've navigated through the maze of array manipulation and successfully simulated an intriguing game event.
 ```
+Bravo! We've navigated through the maze of array manipulation and successfully simulated an intriguing game event.
 
 ## Lesson Summary
 Congratulations on mastering this crucial programming scenario! You've successfully navigated a task involving the simulation of real-world events using array manipulation.

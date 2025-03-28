@@ -26,7 +26,6 @@ def solution(s):
 def solution(s):
   # TODO: implement the solution here
   removed_letters = []
-  s_len = len(s)
   current_string = s[:]
   
   while True:

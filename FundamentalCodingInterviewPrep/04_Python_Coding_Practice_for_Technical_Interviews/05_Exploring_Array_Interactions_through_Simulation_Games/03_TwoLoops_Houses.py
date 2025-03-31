@@ -70,40 +70,43 @@ print(f"house_game([155, 261, 31]) is {house_game([155, 261, 31])}")
 
 # Código Optimizado (Manteniendo Dos Ciclos)
 def house_game_2(houses):
-    # Convertimos los números de las casas en listas de caracteres para manipularlos fácilmente
-    houses = [list(str(house)) for house in houses]
-    n = len(houses)  # Número de casas
-    pos = 1  # Comenzamos con la posición del dígito más a la derecha (1-indexed)
+  # Convertimos los números de las casas en listas de caracteres para manipularlos fácilmente
+  houses = [list(str(house)) for house in houses]
+  n = len(houses)  # Número de casas
+  pos = 1  # Comenzamos con la posición del dígito más a la derecha (1-indexed)
 
-    while True:
-        # Creamos una copia de las casas como enteros para verificar si hay cambios al final del paso
-        prev_houses = [int("".join(house)) for house in houses]
+  while True:
+    # Creamos una copia de las casas como enteros para verificar si hay cambios al final del paso
+    prev_houses = [int("".join(house)) for house in houses]
 
-        # Calculamos y aplicamos las transferencias en dos pasos
-        transfers = [
-            donor[len(donor) - pos] if len(donor) >= pos else None
-            for donor in houses
-        ]
+    # Calculamos y aplicamos las transferencias en dos pasos
+    transfers = [
+      donor[len(donor) - pos] if len(donor) >= pos else None
+      for donor in houses
+    ]
 
-        for i in range(n):
-            if transfers[i] is not None:
-                # Extraemos el dígito de la casa donante
-                houses[i].pop(len(houses[i]) - pos)
-                # Añadimos el dígito al frente de la casa receptora
-                houses[(i + 1) % n].insert(0, transfers[i])
+    for i in range(n):
+      if transfers[i] is not None:
+        # Extraemos el dígito de la casa donante
+        houses[i].pop(len(houses[i]) - pos)
+        # Añadimos el dígito al frente de la casa receptora
+        houses[(i + 1) % n].insert(0, transfers[i])
 
-        # Convertimos las casas actuales a enteros para comparar con el estado previo
-        current_houses = [int("".join(house)) for house in houses]
+    # Convertimos las casas actuales a enteros para comparar con el estado previo
+    current_houses = [int("".join(house)) for house in houses]
 
-        # Si después de un paso no hay cambios, terminamos el bucle
-        if prev_houses == current_houses:
-            break
+    # Si después de un paso no hay cambios, terminamos el bucle
+    if prev_houses == current_houses:
+      break
 
-        # Incrementamos la posición para el siguiente dígito
-        pos += 1
+    # Incrementamos la posición para el siguiente dígito
+    pos += 1
 
-    # Convertimos las listas de caracteres de vuelta a enteros
-    return [int("".join(house)) for house in houses]
+  # Convertimos las listas de caracteres de vuelta a enteros
+  # return [int("".join(house)) for house in houses]
+  final_houses = [int("".join(house)) for house in houses]
+  print(f"Final houses state {final_houses}")
+  return final_houses
 
 # Prueba del caso proporcionado
 print(f"house_game([155, 261, 31]) is {house_game_2([155, 261, 31])}")

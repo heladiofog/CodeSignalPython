@@ -49,7 +49,7 @@ prompt = "How many times does the letter 'r' appear in the word 'strawberry'?"
 
 # TODO: Change the model to "o3-mini"
 response = client.chat.completions.create(
-    model="03-mini",
+    model="o3-mini",
     messages=[{"role": "user", "content": prompt}]
 )
 

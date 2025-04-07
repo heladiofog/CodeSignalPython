@@ -25,7 +25,7 @@ reply = response.choices[0].message.content.strip()
 print("Prompt:", prompt)
 print("Response:", reply)
 
-# Solving Fix the AI Response Extraction practice.
+# Fix the AI Response Extraction practice.
 
 # Example of response.choices:
 """

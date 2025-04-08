@@ -35,21 +35,21 @@ print("Response:", chatGpt_reply)
 # Practise: Complete the OpenAI Interaction.
 
 ## Resulting promt and its response:
-Prompt: Do you know the Convoy Network App? How would you imagine a smimilar app for Japanese audience?
-Response: Yes, the Convoy Network App is a unit of digital multimedia production focusing mainly on creating audio content, such as podcasts and music for the Spanish speaking audience.
+# Prompt: Do you know the Convoy Network App? How would you imagine a smimilar app for Japanese audience?
+# Response: Yes, the Convoy Network App is a unit of digital multimedia production focusing mainly on creating audio content, such as podcasts and music for the Spanish speaking audience.
 
-Visualizing a similar app for a Japanese audience, it would be created with a profound understanding of the Japanese culture, language, and user preferences. 
+# Visualizing a similar app for a Japanese audience, it would be created with a profound understanding of the Japanese culture, language, and user preferences. 
 
-1. Language: The content, including user instructions, podcasts, playlist descriptions, and more, would be translated into Japanese. Not just literal translation, but localization to fit the cultural context is essential.
+# 1. Language: The content, including user instructions, podcasts, playlist descriptions, and more, would be translated into Japanese. Not just literal translation, but localization to fit the cultural context is essential.
 
-2. Content: An array of podcasts relevant to Japanese audience will be offered, including topics like anime, Manga, Japanese history, traditions, J-pop, business, technology, language learning, lifestyle, etc. Collaboration with Japanese content creators and influencers could be a good strategy.
+# 2. Content: An array of podcasts relevant to Japanese audience will be offered, including topics like anime, Manga, Japanese history, traditions, J-pop, business, technology, language learning, lifestyle, etc. Collaboration with Japanese content creators and influencers could be a good strategy.
 
-3. User experience: The app will have a user-friendly design that suits the Japanese audience's preferences. It could incorporate aesthetic elements inspired by Japanese culture.
+# 3. User experience: The app will have a user-friendly design that suits the Japanese audience's preferences. It could incorporate aesthetic elements inspired by Japanese culture.
 
-4. Customer service: The customer service team would be equipped to service in Japanese and resolve issues promptly.
+# 4. Customer service: The customer service team would be equipped to service in Japanese and resolve issues promptly.
 
-5. Local marketing: The app will be marketed in ways that it reaches the target audience effectively. This might include collaborations with Japanese celebrities, influencers, or music artists.
+# 5. Local marketing: The app will be marketed in ways that it reaches the target audience effectively. This might include collaborations with Japanese celebrities, influencers, or music artists.
 
-6. Legal compliance: The app should comply with all Japanese laws and regulations for apps and digital content platforms. 
+# 6. Legal compliance: The app should comply with all Japanese laws and regulations for apps and digital content platforms. 
 
-In terms of functionalities, the app would offer features like download for offline listening, personalized recommendations, notifications about new content, and capabilities to share favorite podcasts on social media. The app could also integrate with other popular Japanese apps and services for easy access and improved user experience.
+# In terms of functionalities, the app would offer features like download for offline listening, personalized recommendations, notifications about new content, and capabilities to share favorite podcasts on social media. The app could also integrate with other popular Japanese apps and services for easy access and improved user experience.

@@ -19,6 +19,7 @@ response = client.chat.completions.create(
     model="gpt-4",
     messages=[{"role": "user", "content": prompt}],
     # TODO: Add the max_tokens parameter and set it to 100 to limit response length
+    max_tokens=100, # Set the max_tokens parameter to limit the response length
 )
 
 # Process the response
@@ -35,7 +36,6 @@ The sun, a fiery orb, slowly dips down into the ocean, its raging inferno subdue
 As the sun drops lower, a sea of crimson sweeps across the horizon, as though the sky itself were aflame. It seems to hold its breath for that beautiful but melancholy moment when the last of the sun vanishes beneath the horizon. 
 
 The sun is gone now, leaving behind a sky blushing from its departure. The cooling air has a refreshing tang of seaweed and salt, the ocean now a deeper indigo, disrupted only by the gentle lapping of its waves. Above, an emerging cosmos of stars begins to twinkle as the curtain of day gracefully falls, giving way to the enchanting allure of the night. It remains a perfect pause for any beholder, a serene finale to the day. Yet the memory of the resplendent spectacle remains etched in the heart, its extraordinary fusion of colors fading but not forgotten— a testament to nature's masterful and humbling grandeur. """
-
 
 # Practice: Control AI Response Length.
 

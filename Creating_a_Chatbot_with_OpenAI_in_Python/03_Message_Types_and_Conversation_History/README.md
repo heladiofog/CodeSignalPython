@@ -102,3 +102,8 @@ Assistant: Yes, Paris is a large city.
 ```
 
 Having access to the conversation history allows you to track the flow of dialogue and ensure that the AI's responses remain contextually relevant.
+
+## Summary and Preparation for Practice
+In this lesson, you learned about message types and the importance of maintaining conversation history in chatbot interactions. We explored how to set up your environment, initialize the OpenAI client, and create a function to handle conversations. You also saw how to build and manage conversation history, enabling the AI to generate contextually relevant responses.
+
+As you move on to the practice exercises, I encourage you to experiment with different conversation scenarios and observe how the AI's responses change based on the context provided. This hands-on practice will reinforce what you've learned and prepare you for the next unit, where we'll continue to build on these concepts. Keep up the great work, and enjoy the journey of creating your chatbot with OpenAI!
